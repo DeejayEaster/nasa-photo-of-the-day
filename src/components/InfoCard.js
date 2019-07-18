@@ -1,17 +1,19 @@
-import React from "react";
+// import React from "react";
 
-// function that returns the component
+// // function that returns the component
 
-const InfoCard = ({ info }) => {
-  return (
-    <>
-      <div className="info-container">
-        <h1 className="title">{info.title}</h1>
-        <p className="date">{info.date}</p>
-        <p className="explain">{info.explanation}</p>
-      </div>
-    </>
-  );
-};
+// const InfoCard = ({ info }) => {
+//   return (
+//     <>
+//       <div className="content">
+//         <h1 className="header">{info.title}</h1>
+//         <div className="meta">
+//           <span className="date">{info.date}</span>
+//         </div>
+//         <p className="description">{info.explanation}</p>
+//       </div>
+//     </>
+//   );
+// };
 
-export default InfoCard;
+// export default InfoCard;
