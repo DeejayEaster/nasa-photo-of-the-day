@@ -19,7 +19,7 @@ function App() {
   if (!data) return <h3>Loading...</h3>;
   return (
     <>
-      <Container id="container">
+      <Container>
         <Header size="huge">NASA's Pic of the Day</Header>
         <MediaCard info={data} />
         {/* <InfoCard info={data} /> */}
