@@ -31,3 +31,37 @@
     transform: rotate(360deg);
   }
 }
+#root {
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(217deg, #4b217a, rgba(62, 255, 3, 0) 70.71%),
+    linear-gradient(127deg, #7851a9, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.huge {
+  text-align: center;
+  font-size: 4rem !important;
+  font-family: "Permanent Marker", cursive !important;
+}
+
+.small-header {
+  padding-bottom: 1rem;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 2rem !important;
+}
+.card-contain {
+  width: 80% !important;
+  border: 2px solid #111 !important;
+  margin-left: 5rem !important;
+  box-shadow: 5px 10px 18px #111 !important;
+}
+
+.description {
+  font-size: 1.4rem !important;
+  line-height: 1.7rem !important;
+}
